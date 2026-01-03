@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/pomodoro-timer/', // GitHub Pagesの場合はリポジトリ名に変更
+  base: '/', // Vercel用（GitHub Pagesの場合は '/pomodoro-timer/' に変更）
   server: {
     host: true,
   },
